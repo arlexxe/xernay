@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redes - Xernay</title>
+  <style>
+    body {
+      background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Courier New', Courier, monospace;
+      color: #00ff00;
+      margin: 0;
+      padding: 0;
+      backdrop-filter: brightness(0.3);
+    }
+    header, footer {
+      background-color: rgba(0, 0, 0, 0.85);
+      text-align: center;
+      padding: 20px;
+      border-bottom: 2px solid #00ff00;
+    }
+    nav a {
+      color: #00ff00;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ff00;
+    }
+    nav a:hover {
+      color: #33ff33;
+    }
+    main {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #00ff00;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      text-align: center;
+      color: #00ff00;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ff00;
+    }
+    .contact-info {
+      font-size: 1.2em;
+      line-height: 2;
+    }
+    .contact-info a {
+      color: #00ff00;
+      text-decoration: underline;
+    }
+    .contact-info a:hover {
+      color: #33ff33;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <a href="hackin.html">Inicio</a>
+      <a href="que es.html">¿Qué es?</a>
+      <a href="comoenpezar.html">¿Por dónde empezar?</a>
+      <a href="herramientas.html">Herramientas</a>
+      <a href="contenido.html">Más Contenido</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h1>¡Conecta conmigo!</h1>
+    <div class="contact-info">
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/xernay__" target="_blank">@xernay__</a></p>
+      <p><strong>Telegram:</strong> <a href="https://t.me/Xernay444" target="_blank">@Xernay444</a></p>
+      <p><strong>Email:</strong> próximamente...</p>
+      <p><strong>Canal de contenido exclusivo:</strong> próximamente...</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Xernay - Conecta y colabora desde donde estés.</p>
+  </footer>
+</body>
+</html>
